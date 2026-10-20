@@ -1,5 +1,9 @@
 # 9Router & Antigravity Auto-Starter
 
+<p align="center">
+  <img src="./social-preview.png" alt="9Router & Antigravity Auto-Starter Preview Banner" width="100%" />
+</p>
+
 Otomatisasi one-click untuk menjalankan **9Router**, melakukan bypass login password dashboard, mengaktifkan **MITM Proxy** (Port 443), serta memastikan DNS redirection untuk **Google Antigravity** aktif tanpa perlu membuka browser secara manual.
 
 ---
@@ -28,6 +32,8 @@ Otomatisasi one-click untuk menjalankan **9Router**, melakukan bypass login pass
 | :--- | :--- |
 | [`9Router.cmd`](9Router.cmd) | Batch script launcher utama dengan auto-elevation Administrator dan pendeteksi Node.js di sistem. |
 | [`auto-mitm.js`](auto-mitm.js) | Engine otomatisasi Node.js murni (tanpa dependensi eksternal) untuk autentikasi CLI, bypass password, start MITM, dan verifikasi health check. |
+| [`social-preview.png`](social-preview.png) | Banner social preview resmi (Open Graph / GitHub 1280x640). |
+| [`generate_social_preview.py`](generate_social_preview.py) | Script generator otomatis untuk membuat gambar og:image via Microsoft Edge Headless. |
 | [`9Router.lnk`](9Router.lnk) | Shortcut Windows praktis siap pakai di Desktop atau Taskbar. |
 | [`icon.ico`](icon.ico) / [`icon.png`](icon.png) | Aset ikon representatif untuk shortcut. |
 | [`.gitignore`](.gitignore) | Mengabaikan file sistem sementara dan log runtime. |
