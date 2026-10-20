@@ -26,7 +26,7 @@ Otomatisasi one-click untuk menjalankan **9Router**, melakukan bypass login pass
 
 | File | Deskripsi |
 | :--- | :--- |
-| [`9Router.cmd`](9Router.cmd) | Batch script launcher utama dengan auto-elevation Administrator dan pendeteksi Node.js (FlyEnv / System PATH). |
+| [`9Router.cmd`](9Router.cmd) | Batch script launcher utama dengan auto-elevation Administrator dan pendeteksi Node.js di sistem. |
 | [`auto-mitm.js`](auto-mitm.js) | Engine otomatisasi Node.js murni (tanpa dependensi eksternal) untuk autentikasi CLI, bypass password, start MITM, dan verifikasi health check. |
 | [`9Router.lnk`](9Router.lnk) | Shortcut Windows praktis siap pakai di Desktop atau Taskbar. |
 | [`icon.ico`](icon.ico) / [`icon.png`](icon.png) | Aset ikon representatif untuk shortcut. |
@@ -70,7 +70,7 @@ Otomatisasi one-click untuk menjalankan **9Router**, melakukan bypass login pass
 ## 📋 Prasyarat
 
 1. **Sistem Operasi**: Windows 10 / 11 dengan hak Administrator.
-2. **Node.js**: Terinstal secara global atau terintegrasi di `FlyEnv` (`C:\Program Files\FlyEnv-Data\env\node\node.exe`).
+2. **Node.js**: Terinstal di sistem (dapat diakses via PATH / command prompt).
 3. **9Router CLI**: Terinstal secara global (`npm i -g 9router`).
 
 ---
